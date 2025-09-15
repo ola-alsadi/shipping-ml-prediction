@@ -1,0 +1,48 @@
+# Applying Machine Learning to Shipping 🚢📦
+
+This project explores the application of **machine learning techniques** to real-world shipping data.  
+The goal was to predict shipment prices and classify shipments based on various attributes such as weight, dimensions, and destination.  
+We also applied unsupervised learning to identify natural groupings in the data.
+
+## 📊 Dataset
+- 7,000 shipping records  
+- Features: price, weight, dimensions, shipment date, destination port  
+- Preprocessing: missing value imputation, feature engineering (volume, density, weekday/weekend), scaling, encoding  
+
+## 🧠 Machine Learning Models
+- **Regression**
+  - Random Forest Regressor (baseline & tuned)
+  - XGBoost Regressor
+- **Classification**
+  - Random Forest Classifier
+- **Clustering**
+  - KMeans Clustering with PCA for dimensionality reduction
+
+## 🔎 Results
+- **Regression**
+  - RMSE improved from 4.34 → 1.14 after tuning  
+  - R² improved from 0.55 → 0.58  
+- **Classification**
+  - Accuracy improved from ~79.6% → ~81%  
+- **Clustering**
+  - Silhouette score > 0.55 (well-separated clusters)
+
+## ⚙️ Tools & Libraries
+- Python (scikit-learn, XGBoost, pandas, matplotlib, seaborn)  
+- Google Colab (GPU support, collaboration)  
+
+## 📌 Key Takeaways
+- Learned hands-on data preprocessing, feature engineering, and visualization  
+- Gained experience in regression, classification, clustering, and hyperparameter tuning  
+- Improved model performance through iterative development and evaluation  
+
+## 📄 Report
+The full project report is included in this repository as a PDF.  
+
+---
+
+👩‍💻 *Contributors:*  
+- Noor Al-Hooti  
+- Shahad Al Ruzaiqi  
+- Ola Al Sadi  
+- Zulfa Al Balushi
